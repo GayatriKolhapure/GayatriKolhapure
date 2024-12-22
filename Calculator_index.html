@@ -42,6 +42,13 @@
                         <input type="button" value="( )"  onclick="display.value += '( )' " class="operator">
                         <input type="button" value="="  onclick="display.value=eval(display.value)"class="operator">
                     </div>
+                    <div class="scientific-keys" style="display: none;">
+                        <input type="button" value="sin" onclick="appendValue('sin(')">
+                        <input type="button" value="cos" onclick="appendValue('cos(')">
+                        <input type="button" value="tan" onclick="appendValue('tan(')">
+                        <input type="button" value="sqrt" onclick="appendValue('sqrt(')">
+                        <input type="button" value="^" onclick="appendValue('^')">
+                    </div>
                 </form>
             </div>
             
