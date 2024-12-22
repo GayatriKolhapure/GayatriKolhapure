@@ -17,6 +17,20 @@
     padding: 20px;
     border-radius: 10px;
 }
+.toggle-button {
+    background-color: #33ffd8;
+    color: #31424d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.toggle-button:hover {
+    background-color: #28bfa6;
+}
 .calculator form input{
     border: 0;
     outline: 0;
