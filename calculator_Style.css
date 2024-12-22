@@ -44,3 +44,13 @@ form .display input{
 form input.operator{
     color: #33ffd8;
 }
+form input:hover {
+    background: #3e5866;
+}
+.scientific-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
